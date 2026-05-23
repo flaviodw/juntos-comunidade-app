@@ -1,7 +1,7 @@
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    tailwindcss: {},
+    // Removemos a linha do tailwindcss: {} daqui para evitar o conflito
   },
 };
 
